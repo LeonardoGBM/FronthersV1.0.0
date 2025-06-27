@@ -1,12 +1,30 @@
-.Titulo{
-    background: greenyellow;
-}
-.caja1{
+.navbar{
     background: black;
+    color: white;
+      font-family: 'Montserrat', sans-serif; 
+      font-size: 25px;
+      border: 3px solid #7600FF;
+      border-radius: 0 0 25px 25px;
 }
-.caja2{
-    background: orange;
+.menu{
+    justify-content: space-around;
+    align-items: center;
 }
-.caja3{
-    background: rgb(115, 17, 145);
+.menu a{
+    text-decoration: none;
+}
+.menu li:last-child {
+  margin-right: 0; 
+}
+
+.inicio{
+    color: #B069FF;
+    border-right: 2px solid white;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.logo{
+    margin-right: 500px;
 }
