@@ -1,0 +1,39 @@
+import React, { Fragment } from "react";
+import "./carrusel.css";
+import carrusel1 from "../assets/carrusel1.jpg";
+import carrusel2 from "../assets/carrusel2.jpeg";
+import carrusel3 from "../assets/carrusel3.jpeg";
+import carrusel4 from "../assets/carrusel4.jpeg";
+
+const Carrusel = () => {
+  return (
+    <Fragment>
+      <div className="container-fluid">
+        <div className="row carrusel">
+          <div className="col-md imagenes">
+            <img src={carrusel1} alt="imagen1" />
+            <img src={carrusel3} alt="imagen3" />
+            <img src={carrusel4} alt="imagen4" />
+          </div>
+          <div className="overlay"></div>
+          <div className="texto-superpuesto">
+            <h1 className="titulo mb-5">
+              Soluciones digitales para tu negocio
+            </h1>
+            <p className="parrafo">
+              En Fronthers, combinamos desarrollo web, tecnología y soporte
+              técnico para ayudarte a crecer. Brindamos soluciones accesibles y{" "}
+              <br />
+              efectivas a pequeños negocios, tiendas y emprendedores que buscan
+              digitalizarse o mejorar su equipo de trabajo.
+            </p>
+            <button className="boton" type="button">Solicita tu sitio hoy</button>
+          </div>
+     
+        </div>
+      </div>
+    </Fragment>
+  );
+};
+
+export default Carrusel;
