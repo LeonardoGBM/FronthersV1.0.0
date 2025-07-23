@@ -6,7 +6,7 @@ import Carrusel from './components/carrusel';
 function App() {
   return (
     <div className="App">
-     <Carrusel></Carrusel>
+     <Navbar/>
     </div>
   );
 }
