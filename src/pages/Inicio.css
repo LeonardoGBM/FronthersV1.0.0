@@ -1,0 +1,68 @@
+.container-fluid{
+    background: black;
+}
+.descripcion{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    text-align: center;
+}
+.titulo{
+    margin-top: 75px;
+}
+
+.cardb{
+    text-align: start;
+    padding: 20px;
+    background: rgb(95, 6, 115);
+    border-radius: 10px;
+}
+
+.cardb h5{
+    text-align: center;
+}
+.cardb h2{
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+.bot{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.cardn{
+    text-align: start;
+    padding: 20px;
+    background: #1F3A93;
+    border-radius: 10px;
+}
+.cardn h5{
+    text-align: center;
+}
+.cardn h2{
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+.bot{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.cardp{
+    text-align: start;
+    padding: 20px;
+    background: #f1c40fca;
+    border-radius: 10px;
+}
+.cardp h5{
+    text-align: center;
+}
+.cardp h2{
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
