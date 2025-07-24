@@ -6,6 +6,12 @@ import carrusel3 from "../assets/carrusel3.jpeg";
 import carrusel4 from "../assets/carrusel4.jpeg";
 
 const Carrusel = () => {
+  const consulta = () =>{
+    const numero = 593987175379;
+    const mensaje = 'Hola me gustaria más información de:'
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, "_blank");
+  };
   return (
     <Fragment>
       <div className="container-fluid">
@@ -18,16 +24,16 @@ const Carrusel = () => {
           <div className="overlay"></div>
           <div className="texto-superpuesto">
             <h1 className="titulo mb-5">
-              Soluciones digitales para tu negocio
+              Soluciones digitales para tu hogar y negocio
             </h1>
             <p className="parrafo">
               En Fronthers, combinamos desarrollo web, tecnología y soporte
-              técnico para ayudarte a crecer. Brindamos soluciones accesibles y{" "}
-              <br />
+              técnico para ayudarte a crecer. Brindamos soluciones accesibles y
+              <br/>
               efectivas a pequeños negocios, tiendas y emprendedores que buscan
               digitalizarse o mejorar su equipo de trabajo.
             </p>
-            <button className="boton" type="button">Solicita tu sitio hoy</button>
+            <button className="boton" onClick={consulta}>Chatea con nosotros</button>
           </div>
      
         </div>

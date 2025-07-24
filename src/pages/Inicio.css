@@ -16,6 +16,8 @@
     padding: 20px;
     background: rgb(95, 6, 115);
     border-radius: 10px;
+    width: 400px;
+    height: 375px;
 }
 
 .cardb h5{
@@ -37,6 +39,8 @@
     padding: 20px;
     background: #1F3A93;
     border-radius: 10px;
+    width: 400px;
+    height: 375px;
 }
 .cardn h5{
     text-align: center;
@@ -57,6 +61,8 @@
     padding: 20px;
     background: #f1c40fca;
     border-radius: 10px;
+    width: 400px;
+    height: 375px;
 }
 .cardp h5{
     text-align: center;

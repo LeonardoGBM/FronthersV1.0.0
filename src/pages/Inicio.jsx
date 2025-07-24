@@ -7,7 +7,7 @@ const Inicio = () => {
   let mensaje = "Solicito Paquete";
 
   const pagoBasico = () => {
-    const numero = 593987175379;
+    const numero = 593995630396;
     const texto = `${mensaje} Básico\n 1 Pestaña \n Responsive`;
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
     window.open(url, "_blank");
@@ -20,7 +20,7 @@ const Inicio = () => {
         <div className="row fondo">
           <div className="col-12 descripcion">
             <h1 className="titulo">Una pagína diseñada para tí</h1>
-            <p>
+            <p className="pt-5">
               Diseñamos sitios web modernos, visuales y optimizados para mostrar
               tu negocio en internet. <br />
               Adaptados a celulares, integrados con redes sociales y enfocados
@@ -28,7 +28,7 @@ const Inicio = () => {
             </p>
             {/*Video de youtube*/}
 
-            <div className="row justify-content-center ">
+            <div className="row justify-content-center  pt-5">
               <div className="col-3">
                 <div className="cardb">
                   <h5>
@@ -91,6 +91,8 @@ const Inicio = () => {
                   </div>
                 </div>
               </div>
+
+              
             </div>
           </div>
         </div>
