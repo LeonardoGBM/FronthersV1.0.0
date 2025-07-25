@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Fragment>
       <div className="container-fluid">
-        <div className="row navbar align-items-center">
+        <div className="row navbar align-items-center fixed-top">
           <div className="col-md mt-2"> 
             <img src={Fronthersact} alt="logo" className='logo'/>
           </div>

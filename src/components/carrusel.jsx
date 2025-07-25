@@ -15,7 +15,7 @@ const Carrusel = () => {
   return (
     <Fragment>
       <div className="container-fluid">
-        <div className="row carrusel">
+        <div className="row carrusel mt-5">
           <div className="col-md imagenes">
             <img src={carrusel1} alt="imagen1" />
             <img src={carrusel3} alt="imagen3" />
