@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ /* Ajusta según la altura del navbar */
+  padding-top: 70px; /* Ajusta según la altura del navbar */
+
 }
 
 code {

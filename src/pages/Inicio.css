@@ -1,92 +1,76 @@
 .container-fluid{
     background: black;
 }
+
+/*Estilo de las letras de la pagina general*/
 .descripcion{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif; 
     color: white;
     text-align: center;
 }
-.titulo{
-    margin-top: 75px;
-}
 
-.cardb{
-    text-align: start;
-    padding: 20px;
-    background: rgb(95, 6, 115);
-    border-radius: 10px;
-    width: 400px;
-    height: 375px;
-}
-.cardb:hover{
-    background: rgba(95, 6, 115, 0.549);
-}
-.cardb h5{
-    text-align: center;
-}
-.cardb h2{
-    text-align: center;
-    color: green;
-    padding: 20px;
-}
+/*Botones de cards*/
 .bot{
-    margin-top: 30px;
-    margin-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-
-.cardn{
-    text-align: start;
-    padding: 20px;
-    background: #1F3A93;
-    border-radius: 10px;
-    width: 400px;
-    height: 375px;
+/*Colores de las Cards*/
+.cardb {
+  background: rgb(95, 6, 115);
+  text-align: start;
 }
+.cardn {
+  background: #1F3A93;
+  text-align: start;
+}
+.cardp {
+  background: #f1c40fca;
+  text-align: start;
+}
+
+/*Propiedades comunes de las cards*/
+.cardb, .cardn, .cardp {
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/*Hovers de las cards*/
 .cardn:hover{
     background: #1f3a938e
-}
-.cardn h5{
-    text-align: center;
-}
-.cardn h2{
-    text-align: center;
-    color: green;
-    padding: 20px;
-}
-.bot{
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-.bot1{
-    margin-top: 120px;
-}
-.bot2{
-    margin-top: 90px;
-}
-
-.cardp{
-    text-align: start;
-    padding: 20px;
-    background: #f1c40fca;
-    border-radius: 10px;
-    width: 400px;
-    height: 375px;
 }
 .cardp:hover{
     background: #f1c40f7e;
 
 }
-.cardp h5{
-    text-align: center;
-}
-.cardp h2{
-    text-align: center;
-    color: green;
-    padding: 20px;
+.cardb:hover{
+    background: rgba(95, 6, 115, 0.549);
 }
 
+/*Textos y titulos*/
+.cardb h2,
+.cardn h2,
+.cardp h2,
+.cardb h5,
+.cardn h5,
+.cardp h5 {
+  text-align: center;
+}
+.cardb h2,
+.cardn h2,
+.cardp h2 {
+  color: green;
+  padding: 20px;
+}
+
+/*Titulos y parrafos de las secciones*/
 .contenido{
     margin-top: 100px;
     padding: 0;
@@ -95,6 +79,8 @@
 .contenidop{
     padding-left: 100px;
 }
+
+/*imagenes unificadas de los parrafos*/
 .imagen img{
     padding: 0;
     margin-top: 100px;
@@ -104,7 +90,7 @@
     border-radius: 15px;
     max-width: 100%;
 }
-
+/*Hover de las imagenes unificadas*/
 .imagen img:hover{
     height: 275px;
     width: 625px;
@@ -112,16 +98,22 @@
     filter: brightness(50%);
 
 }
+
+/*Seccion del los paquetes título*/
 .titulo2{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/*Titulo de la seccion de ubicación*/
 .ubicacion{
     margin-top: 100px;
     margin-bottom: 20px;
 }
 
+/*Mapa*/
 .mapa{
     margin-bottom: 100px;
     border-radius: 20px;
 }
+
