@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Carrusel from './components/carrusel';
 import Inicio from './pages/Inicio'
+import Contactanos from './pages/Contactanos'
 
 function App() {
   return (
