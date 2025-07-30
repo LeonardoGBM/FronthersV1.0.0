@@ -15,6 +15,7 @@ const Servicio = () => {
             <a className="btn-primary text-reset" data-bs-toggle="collapse" href="#paginaWeb" role="button" aria-expanded="false" aria-controls="collapseExample">
                 SERVICIOS DE PAGINAS WEB
                 SERVICIOS DE PAGINAS WEB
+                SERVICIOS DE PAGINAS WEB
             </a>
               </p>
               <div className="collapse fondo" id="paginaWeb">
