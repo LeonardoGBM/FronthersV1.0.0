@@ -1,6 +1,7 @@
 import React,{Fragment} from 'react'
 import './navbarestilo.css'
 import Fronthersact from "../assets/Fronthersact.png";
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <Fragment>
@@ -11,9 +12,9 @@ const Navbar = () => {
           </div>
           <div className="col-md mt-2">
             <ul className='d-flex list-unstyled menu'>
-              <li className='inicio'><a href="" className='text-reset'><b>Inicio</b></a> </li>
-              <li ><a href="" className='text-reset'>¿Quienes Somos?</a></li>
-              <li ><a href="" className='text-reset'>Servicios</a></li>
+              <li className='inicio'><Link to={'/'} className='text-reset'><b>Inicio</b></Link> </li>
+              <li ><Link href="" className='text-reset'>¿Quienes Somos?</Link></li>
+              <li ><Link to={'/servicio'} className='text-reset'>Servicios</Link></li>
               <li ><a href="" className='text-reset'>Contactos</a></li>
             </ul>
           </div>
