@@ -265,7 +265,7 @@ const Servicio = () => {
             <div className="bton col-md-12">
               <p className="d-inline-flex gap-1">
             <a className="btn-primary text-reset" data-bs-toggle="collapse" href="#asesoramiento" role="button" aria-expanded="false" aria-controls="collapseExample">
-                SERVICIOS TECNICO
+                SERVICIO TECNICO
             </a>
               </p>
               <div className="collapse fondo" id="asesoramiento">
