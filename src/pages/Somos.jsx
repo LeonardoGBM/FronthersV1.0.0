@@ -14,16 +14,7 @@ const Somos = () => {
                         <h1 className='margen'>¿Quiénes somos?</h1>
                         <p >
                             Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
-                            Somos un equipo de desarrolladores apasionados por crear soluciones digitales innovadoras y personalizadas para nuestros clientes.
+                            
                         </p>
                     </div>
                 </div>
