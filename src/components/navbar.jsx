@@ -13,9 +13,9 @@ const Navbar = () => {
           <div className="col-md mt-2">
             <ul className='d-flex list-unstyled menu'>
               <li className='inicio'><Link to={'/'} className='text-reset'><b>Inicio</b></Link> </li>
-              <li ><Link href="" className='text-reset'>¿Quienes Somos?</Link></li>
+              <li ><Link to= {'/Somos'} className='text-reset'>¿Quienes Somos?</Link></li>
               <li ><Link to={'/servicio'} className='text-reset'>Servicios</Link></li>
-              <li ><a href="" className='text-reset'>Contactos</a></li>
+              <li ><Link to={'/Contactos'} className='text-reset'>Contactos</Link></li>
             </ul>
           </div>
         </div>

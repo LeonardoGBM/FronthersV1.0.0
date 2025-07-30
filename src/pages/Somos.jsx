@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 
+
  const Somos = () => {
   return (
     <Fragment>  
