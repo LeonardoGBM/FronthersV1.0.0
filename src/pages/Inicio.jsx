@@ -30,7 +30,7 @@ const Inicio = () => {
     <Fragment>
       <Navbar />
       <Carrusel />
-      <div className="container-fluid">
+      <div className="page-container container">
         <div className="row fondo">
           <div className="col-12 descripcion">
             <h1 className="contenido">Una pagína diseñada para tí</h1>
