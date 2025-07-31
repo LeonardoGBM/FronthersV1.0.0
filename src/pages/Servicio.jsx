@@ -102,10 +102,9 @@ const Servicio = () => {
               </p>
               <div className="collapse fondo" id="servicioTecnico">
                 <div className="row justify-content-center">
-                  <h1>Páginas web personalizadas</h1>
+                  <h1>Armado y reparación de computadoras</h1>
                   <p>
-                    Diseño y desarrollo de páginas web modernas, rápidas y
-                    adaptadas a tu marca.
+                    Ofrecemos diagnóstico, mantenimiento, armado personalizado y reparación de equipos de escritorio y portátiles. Soluciones rápidas y confiables para tus necesidades tecnológicas.
                   </p>
                   <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div className="cardb">
@@ -265,7 +264,7 @@ const Servicio = () => {
             <div className="bton col-md-12">
               <p className="d-inline-flex gap-1">
             <a className="btn-primary text-reset" data-bs-toggle="collapse" href="#asesoramiento" role="button" aria-expanded="false" aria-controls="collapseExample">
-                SERVICIO TECNICO
+                ASESORAMIENTO
             </a>
               </p>
               <div className="collapse fondo" id="asesoramiento">
